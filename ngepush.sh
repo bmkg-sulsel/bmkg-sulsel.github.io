@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp -r ../BMKG-SULSEL/* .
+#cp -r ../BMKG-SULSEL/* .
 git status
 git add .
 git commit -m "BISMILLAH"
