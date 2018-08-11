@@ -1,6 +1,8 @@
 #!/bin/bash
 
 #cp -r ../BMKG-SULSEL/* .
+cp -r ../../transmet/Code/Maps_files .
+cp -r ../../transmet/Code/Maps.html .
 git status
 git add .
 git commit -m "BISMILLAH"
