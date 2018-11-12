@@ -20,10 +20,41 @@
 
   <body>
 
+    <style media="screen">
+    a.navbar-brand {
+      display: inline-block;
+      padding-top: 0.3125rem;
+      padding-bottom: 0.3125rem;
+      margin-right: 1rem;
+      /* font-size: 1rem; */
+      /* line-height: inherit;
+      white-space: nowrap; */
+
+
+        font-family: "Lucida Console", monospace;
+        font-weight: bold;
+        font-size: 2rem;
+        color: green;
+    }
+    p.joz {
+      font-family: "Lucida Console", monospace;
+      /* font-weight: bold; */
+      font-size: 0.40rem;
+      color: green;
+      font-style:   normal;
+    }
+
+    </style>
+
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black fixed-top">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="bmkg.png" height=30>BMKG SULSEL</a>
+
+        <a class="navbar-brand" href="index.html"> <img src="bmkg.png" height=40> BMKG SULSEL
+          <!-- "http://www.bmkg.go.id/asset/img/logo/logo-bmkg-white.png" -->
+        <p class="joz">Balai Besar Meterorologi, Klimatologi, dan Geofisika Wilayah IV - Makassar</p>
+      <!-- <p class="joz">Cepat, Akurat, joz gandoz</p>  -->
+    </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,9 +78,9 @@
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
                 <a class="dropdown-item" href="warning.html">PERINGATAN DINI</a>
-                <a class="dropdown-item" href="portfolio-1-col.html">PRAKIRAAN CUACA</a>
-                <a class="dropdown-item" href="portfolio-3-col.html">GELOMBANG LAUT DAN ANGIN</a>
-                <a class="dropdown-item" href="portfolio-4-col.html">OBSERVASI SATELIT DAN RADAR CUACA</a>
+                <a class="dropdown-item" href="prakicu.html">PRAKIRAAN CUACA</a>
+                <a class="dropdown-item" href="gelombang.html">GELOMBANG LAUT DAN ANGIN</a>
+                <a class="dropdown-item" href="citra.html">OBSERVASI SATELIT DAN RADAR CUACA</a>
                 <a class="dropdown-item" href="portfolio-item.html">MODEL CUACA</a>
               </div>
             </li>
@@ -58,8 +89,8 @@
                 IKLIM
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="blog-home-1.html">PREDIKSI AWAL MUSIM HUJAN DAN KEMARAU</a>
-                <a class="dropdown-item" href="blog-home-2.html">HARI TANPA HUJAN</a>
+                <a class="dropdown-item" href="prediksi_iklim.html">PREDIKSI AWAL MUSIM HUJAN DAN KEMARAU</a>
+                <a class="dropdown-item" href="HTH.html">HARI TANPA HUJAN</a>
                 <a class="dropdown-item" href="blog-post.html">RATA-RATA IKLIM</a>
                 <a class="dropdown-item" href="blog-post.html">PETA POTENSI BANJIR</a>
               </div>
@@ -69,7 +100,7 @@
                 GEMPA BUMI
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="full-width.html">GEMPA TERKINI</a>
+                <a class="dropdown-item" href="gempaterkini.html">GEMPA TERKINI</a>
                 <a class="dropdown-item" href="sidebar.html">GEMPA DIRASAKAN</a>
                 <a class="dropdown-item" href="faq.html">LIGHNING DETECTOR</a>
                 <!-- <a class="dropdown-item" href="404.html"></a>
@@ -96,7 +127,7 @@
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">BMKG SULAWESI SELATAN
+      <h1 class="mt-4 mb-3"><br/>BMKG SULAWESI SELATAN
         <small></small>
       </h1>
 
@@ -110,7 +141,9 @@
       <!-- Intro Content -->
       <div class="row">
         <div class="col-lg-6">
-          <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+          <!-- <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+          <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt=""> -->
+          <iframe src="depend_html_gambar/stasiun.html" frameborder="0" height="700" width="450"></iframe>
         </div>
         <div class="col-lg-6">
           <h2></h2>
@@ -119,100 +152,114 @@
           <p>BMKG Sulsel terdiri dari 7 Unit Pelaksana Teknis (UPT), yaitu : </p>
           <p>1. Balai Besar Meteorologi, Klimatologi, dan Geofisika Wilayah IV - Makasar</p>
           <p>2. Stasiun Meteorologi Klas I Hasanuddin - Makassar</p>
-          <p>3. Stasiun Meteorologi Klas III Andi Jemma - Masamba</p>
-          <p>4. Stasiun Meteorologi Klas III - Toraja</p>
-          <p>5. Stasiun Meteorologi Maritim Klas II Paotere - Makassar</p>
-          <p>6. Stasiun Klimatologi Klas I - Maros</p>
-          <p>7. Stasiun Geofisika Klas II - Gowa</p>
+          <p>3. Stasiun Klimatologi Klas I - Maros</p>
+          <p>4. Stasiun Geofisika Klas II - Gowa</p>
+          <p>5. Stasiun Meteorologi Klas III Andi Jemma - Masamba</p>
+          <p>6. Stasiun Meteorologi Klas III - Toraja</p>
+          <p>7. Stasiun Meteorologi Maritim Klas II Paotere - Makassar</p>
+          
         </div>
       </div>
       <!-- /.row -->
 
       <!-- Team Members -->
-      <h2>Our Team</h2>
+      <h2>UPT BMKG SULSEL</h2>
 
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+            <img class="card-img-top" src="depend_html_gambar/WEB/profil/balai.png" height="200px" width="400px" alt="">
             <div class="card-body">
-              <h4 class="card-title">Team Member</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+              <h4 class="card-title">BBMKG IV Makassar</h4>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Position</h6> -->
+              <p class="card-text">Balai Besar Meteorologi, Klimatologi, dan Geofisika Wilayah IV Makassar</p>
             </div>
             <div class="card-footer">
-              <a href="#">name@example.com</a>
+              <!-- <a href="#">name@example.com</a> -->
             </div>
           </div>
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+            <img class="card-img-top" src="depend_html_gambar/WEB/profil/hasanuddin.jpg" height="200px" width="400px" alt="">
             <div class="card-body">
-              <h4 class="card-title">Team Member</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+              <h4 class="card-title">Stamet Hasanuddin</h4>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Position</h6> -->
+              <p class="card-text">Stasiun Meteorologi Klas I Bandara Sultan Hasanuddin</p>
             </div>
             <div class="card-footer">
-              <a href="#">name@example.com</a>
+              <!-- <a href="#">name@example.com</a> -->
             </div>
           </div>
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+            <img class="card-img-top" src="depend_html_gambar/WEB/profil/maros.jpg" height="200px" width="400px" alt="">
             <div class="card-body">
-              <h4 class="card-title">Team Member</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+              <h4 class="card-title">Staklim Maros</h4>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Position</h6> -->
+              <p class="card-text">Stasiun Klimatologi Klas I Maros</p>
             </div>
             <div class="card-footer">
-              <a href="#">name@example.com</a>
+              <!-- <a href="#">name@example.com</a> -->
             </div>
           </div>
         </div>
       </div>
 
 
-      <h2>Our Team</h2>
+      <!-- <h2>Our Team</h2> -->
 
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+            <img class="card-img-top" src="depend_html_gambar/WEB/profil/paotere.jpg" height="200px" width="400px" alt="">
             <div class="card-body">
-              <h4 class="card-title">Team Member</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+              <h4 class="card-title">Stamar Paotere</h4>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Position</h6> -->
+              <p class="card-text">Stasiun Meteorologi Maritim Klas II Paotere</p>
             </div>
             <div class="card-footer">
-              <a href="#">name@example.com</a>
+              <!-- <a href="#">name@example.com</a> -->
             </div>
           </div>
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+            <img class="card-img-top" src="depend_html_gambar/WEB/profil/gowa.jpg" height="200px" width="400px" alt="">
             <div class="card-body">
-              <h4 class="card-title">Team Member</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+              <h4 class="card-title">Stageof Gowa</h4>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Position</h6> -->
+              <p class="card-text">Stasiun Geofisika Klas II Gowa</p>
             </div>
             <div class="card-footer">
-              <a href="#">name@example.com</a>
+              <!-- <a href="#">name@example.com</a> -->
             </div>
           </div>
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+            <img class="card-img-top" src="depend_html_gambar/WEB/profil/masamba.jpg" height="200px" width="400px" alt="">
             <div class="card-body">
-              <h4 class="card-title">Team Member</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+              <h4 class="card-title">Stamet Masamba</h4>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Position</h6> -->
+              <p class="card-text">Stasiun Meteorologi Klas III Andi Jemma Masamba</p>
             </div>
             <div class="card-footer">
-              <a href="#">name@example.com</a>
+              <!-- <a href="#">name@example.com</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 text-center">
+            <img class="card-img-top" src="depend_html_gambar/WEB/profil/tator.jpg" height="200px" width="400px" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Stamet Tana Toraja</h4>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Position</h6> -->
+              <p class="card-text">Stasiun Meteorologi Klas III Pongtiku Tana Toraja</p>
+            </div>
+            <div class="card-footer">
+              <!-- <a href="#">name@example.com</a> -->
             </div>
           </div>
         </div>
@@ -220,7 +267,7 @@
       <!-- /.row -->
 
       <!-- Our Customers -->
-      <h2>Our Customers</h2>
+      <!-- <h2>Our Customers</h2>
       <div class="row">
         <div class="col-lg-2 col-sm-4 mb-4">
           <img class="img-fluid" src="http://placehold.it/500x300" alt="">
@@ -240,7 +287,7 @@
         <div class="col-lg-2 col-sm-4 mb-4">
           <img class="img-fluid" src="http://placehold.it/500x300" alt="">
         </div>
-      </div>
+      </div> -->
       <!-- /.row -->
 
     </div>
@@ -249,7 +296,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy;YN - 2018</p>
+        <p class="m-0 text-center text-white">&copy; BBMKGIV 2018</p>
       </div>
       <!-- /.container -->
     </footer>
