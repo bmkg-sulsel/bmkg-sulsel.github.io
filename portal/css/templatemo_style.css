@@ -16,6 +16,7 @@ html, body {
 	font-size: 12px;
 	background-image: url("https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2016/09/23/103965484-GettyImages-506104983.1910x1000.jpg?v=1474664049");
 	/* background-image: url("http://cdn2.tstatic.net/makassar/foto/bank/images/batu-bat_20170829_221012.jpg"); */
+	/* background-image: url("https://www.superadventure.co.id/uploads/news/2018/05/08/abc1065824ed.jpg"); */
 	
 }
 
@@ -96,7 +97,7 @@ span.fa	{ width: 100%; text-align: center; }
   display: inline-block;
   color: white;
   font-size: 16px;
-  background: #343536;
+  background: #7cbd7c98;
   text-transform: uppercase;
 }
 .site-header .main-navigation ul li a.active {
@@ -113,13 +114,13 @@ span.fa	{ width: 100%; text-align: center; }
 a.menu-toggle-btn {
   padding: 12px 0;
   display: block;
-  color: white;
-  font-size: 24px;
+  color: rgba(247, 127, 29, 0.884);
+  font-size: 18px;
 }
 
 .responsive-menu {
   display: none;
-  background: #343536;
+  background: #34353691;
 }
 
 .responsive_menu {
@@ -558,7 +559,8 @@ a.menu-toggle-btn {
     height: 388px;
 }
 
-.templatemo_footer { background: #343536; padding: 20px 0px; width: 100%; margin-top: 100px; }
+.templatemo_footer { background: #132708be
+	; padding: 20px 0px; width: 100%; margin-top: 100px; }
 .templatemo_footer .hex_footer	{ float: left; margin-right: 5px; height: 40px; }
 
 /* Smartphones (portrait and landscape) ----------- */
